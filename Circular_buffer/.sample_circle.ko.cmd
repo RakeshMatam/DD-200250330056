@@ -1,0 +1,1 @@
+cmd_/home/rakesh/dd/Circular_buffer/sample_circle.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rakesh/dd/Circular_buffer/sample_circle.ko /home/rakesh/dd/Circular_buffer/sample_circle.o /home/rakesh/dd/Circular_buffer/sample_circle.mod.o;  true

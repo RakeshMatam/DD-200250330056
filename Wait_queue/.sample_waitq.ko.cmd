@@ -1,0 +1,1 @@
+cmd_/home/rakesh/dd/Wait_queue/sample_waitq.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/rakesh/dd/Wait_queue/sample_waitq.ko /home/rakesh/dd/Wait_queue/sample_waitq.o /home/rakesh/dd/Wait_queue/sample_waitq.mod.o;  true
